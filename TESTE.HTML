@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>reCAPTCHA v3 Example</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onSubmit(token) {
+        // Do something with the token, like submit the form
+        document.getElementById("demo-form").submit();
+      }
+    </script>
+  </head>
+  <body>
+    <h1>reCAPTCHA v3 Example</h1>
+    <form id="demo-form" action="" method="POST">
+      <input type="text" name="name" placeholder="Name"><br>
+      <input type="email" name="email" placeholder="Email"><br>
+      <button class="g-recaptcha" 
+              data-sitekey="6Lf-zUAhAAAAAPW98kF9FS1syI1NuLS48MSk4oaM" 
+              data-callback='onSubmit' 
+              data-action='submit'>Submit</button>
+    </form>
+  </body>
+</html>
