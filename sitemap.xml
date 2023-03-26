@@ -67,7 +67,6 @@
 <url>
   <loc>https://radarbolsa.com/livros/day-trade-40-dicas-de-sucesso</loc>
   <lastmod>2022-10-26 </lastmod>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://radarbolsa.com/br/day-trade-dicas-sucesso</loc>
@@ -112,15 +111,23 @@
   <lastmod>2023-01-28 </lastmod>
 </url>
 <url>
-  <loc>https://radarbolsa.com/br/price-action</loc>
-  <lastmod>2023-01-28 </lastmod>
-</url>
-<url>
-  <loc>https://radarbolsa.com/en/price-action-trading-strategies</loc>
+  <loc>https://radarbolsa.com/br/price-action-para-iniciantes</loc>
   <lastmod>2023-01-28 </lastmod>
 </url>
 <url>
   <loc>https://radarbolsa.com/br/price-action-estrategias</loc>
+  <lastmod>2023-01-28 </lastmod>
+</url>
+<url>
+  <loc>https://radarbolsa.com/br/blog</loc>
+  <lastmod>2023-01-28 </lastmod>
+</url>
+<url>
+  <loc>https://radarbolsa.com/en/blog</loc>
+  <lastmod>2023-01-28 </lastmod>
+</url>
+<url>
+  <loc>https://radarbolsa.com/en/price-action-trading-strategies</loc>
   <lastmod>2023-01-28 </lastmod>
 </url>
 
