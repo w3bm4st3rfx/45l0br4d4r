@@ -254,15 +254,10 @@
 	        </div><!--//section-pricing-->
 
 
-<script type="text/javascript">
-  // Function to detect if the device is a desktop
-  function isDesktop() {
-    return window.innerWidth >= 768; // Adjust the threshold as per your requirements
-  }
-
-  // Check if the device is a desktop
-  if (isDesktop()) {
-    // Code for desktop devices
+<script>
+  // Check if the device is a desktop based on viewport width
+  if (window.innerWidth >= 768) {
+    // Code to execute for desktop devices
     function importHotmart() {
       var imported = document.createElement('script');
       imported.src = 'https://static.hotmart.com/checkout/widget.min.js';
@@ -273,45 +268,19 @@
       link.type = 'text/css';
       link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css';
       document.head.appendChild(link);
+
+      var buyButton = document.createElement('a');
+      buyButton.setAttribute('onclick', 'return false;');
+      buyButton.setAttribute('href', 'https://pay.hotmart.com/Y80285851R?checkoutMode=2');
+      buyButton.setAttribute('class', 'hotmart-fb hotmart__button-checkout');
+      buyButton.innerText = 'Comprar Agora';
+      document.body.appendChild(buyButton);
     }
 
     importHotmart();
-
-    var anchor = document.createElement('a');
-    anchor.href = 'https://pay.hotmart.com/Y80285851R?checkoutMode=2';
-    anchor.className = 'hotmart-fb hotmart__button-checkout';
-    anchor.textContent = 'Comprar Agora';
-
-    // Replace the existing element with the new code
-    document.body.innerHTML = '';
-    document.body.appendChild(anchor);
-  } else {
-    // Code for mobile devices
-    var div = document.createElement('div');
-    div.className = 'd-grid gap-2 col-6 mx-auto text-center';
-
-    var anchor = document.createElement('a');
-    anchor.href = 'https://pay.hotmart.com/Y80285851R';
-    anchor.className = 'btn btn-primary';
-    anchor.role = 'button';
-    anchor.textContent = 'Comprar Agora!';
-
-    var img = document.createElement('img');
-    img.className = 'img-fluid mx-auto d-block';
-    img.src = 'https://res.cloudinary.com/institutotrader/image/upload/v1675760120/pgrb350x151_dygla3.png';
-    img.width = 350;
-    img.height = 151;
-    img.alt = 'carregando...';
-    img.loading = 'lazy';
-
-    div.appendChild(anchor);
-    div.appendChild(img);
-
-    // Replace the existing element with the new code
-    document.body.innerHTML = '';
-    document.body.appendChild(div);
   }
 </script>
+
 
 
 		    <div id="section-reviews" class="section-reviews pb-2 pt-2">
