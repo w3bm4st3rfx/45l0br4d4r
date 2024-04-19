@@ -92,8 +92,9 @@
 /livros/trader-50-licoes-essenciais.html  /livros/trader-iniciante-guia-rapido  301
 /livros/trader-iniciante-50-licoes-praticas  /livros/trader-iniciante-guia-rapido  301
 /livros/trader-iniciante-50-licoes-praticas.html  /livros/trader-iniciante-guia-rapido  301
-/alertas.html  /alertas/index.html  301
+/alertas.html  /assinaturas/radar-acoes  301
 /assinaturas/swing-trade /assinaturas/radar-acoes 301
-/alertas.htm  /alertas/index.html  301
+/alertas.htm  /assinaturas/radar-acoes  301
 /assinaturas/swing-trade.html  /assinaturas/radar-acoes.html  301
 /*.htm / 301
+/alertas/index.html /assinaturas/radar-acoes 301
