@@ -12,7 +12,7 @@
 	<atom:link href="https://radarbolsa.com/blog/category/padroes-candlesticks/feed/" rel="self" type="application/rss+xml" />
 	<link>https://radarbolsa.com/blog/</link>
 	<description>Day Trade &#124; Swing Trade &#124; Análise Técnica</description>
-	<lastBuildDate>Mon, 21 Oct 2024 13:32:06 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 21 Oct 2024 21:18:21 +0000</lastBuildDate>
 	<language>pt-BR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -340,7 +340,7 @@
 			<media:player url="https://www.youtube.com/embed/D99_XTPwAzo" />
 			<media:title type="plain">10 Padrões Candlesticks Mais Importantes</media:title>
 			<media:description type="html"><![CDATA[Neste vídeo você aprenderá a identificar e entender os 10 principais padrões de candlesticks usados pelos traders profissionais para prever movimentos de preço e aumentar suas chances de sucesso nas operações.]]></media:description>
-			<media:thumbnail url="https://radarbolsa.com/blog/wp-content/uploads/2024/10/tipos-de-candlestick-como-ler-os-3.jpg" />
+			<media:thumbnail url="https://ik.imagekit.io/z2wvrofag/videos/thumbnails/padores-candlestick_3WiScXEqF.webp" />
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 		</media:content>
 	</item>
