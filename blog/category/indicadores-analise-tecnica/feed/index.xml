@@ -12,7 +12,7 @@
 	<atom:link href="https://radarbolsa.com/blog/category/indicadores-analise-tecnica/feed/" rel="self" type="application/rss+xml" />
 	<link>https://radarbolsa.com/blog/</link>
 	<description>Day Trade &#124; Swing Trade &#124; Análise Técnica</description>
-	<lastBuildDate>Mon, 21 Oct 2024 21:41:44 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 22 Oct 2024 10:55:59 +0000</lastBuildDate>
 	<language>pt-BR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -68,18 +68,7 @@
 </div>
 <p>&nbsp;</p>
 <h2 id="video-indicador-macd-como-funciona" class="pt2 pb2">Versão em Vídeo</h2>
-			<div id="rank-math-rich-snippet-wrapper" class="">
-
-						<h5 class="rank-math-title">Indicador MACD Na Prática</h5>
-		<div class="rank-math-review-data">
-
-			<p>Neste vídeo, vou te explicar de forma simples e prática tudo o que você precisa saber sobre o indicador MACD. </p>
-		
-	<div class="ast-oembed-container " style="height: 100%;"><iframe title="Indicador MACD: Como Funciona, Estratégias e Dicas" width="1200" height="675" src="https://www.youtube.com/embed/4kgWs58DIds?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-</div>
-
-			</div>
-		
+<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/ifDVlSIOJD8?si=XE26JidwoSWemSQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 <p>&nbsp;</p>
 <h2 id="o-que-é-o-macd" class="pt2 pb2">O que é o MACD?</h2>
 <p>O MACD é um indicador <strong>usado por investidores</strong> e traders para ajudar a entender o mercado de ações. Ele mostra a diferença entre duas médias móveis do preço de uma ação e pode ajudar a identificar se o valor da ação está subindo ou descendo.</p>
@@ -109,7 +98,7 @@
 <p class="pt-2">Afinal, qual a mágica por trás dessas linhas? <strong>Não há mágica.</strong> Essas linhas são construídas com base em médias móveis exponenciais &#8211; tanto que M.A.C.D significa Convergência e Divergência de Médias Móveis.</p>
 <p>&nbsp;</p>
 <p>Veja outro <strong>exemplo</strong> do sinal do indicador macd para compra:</p>
-<p><img loading="lazy" decoding="async" class="img-fluid mx-auto d-block alignnone" src="https://res.cloudinary.com/institutotrader/image/upload/v1666562740/Blog/indicador-macd-para-day-trade.webp" alt="exemplo de como funciona o sinal de compra no indicador macd" width="680" height="350" /></p>
+<p><img decoding="async" class="img-fluid mx-auto d-block alignnone" src="https://res.cloudinary.com/institutotrader/image/upload/v1666562740/Blog/indicador-macd-para-day-trade.webp" alt="exemplo de como funciona o sinal de compra no indicador macd" width="680" height="350" /></p>
 <p>Observe como o cruzamento da <span style="color: #0000ff;"><strong>linha azul</strong></span> acima da <span style="color: #ff0000;"><strong>linha vermelha</strong></span> sinaliza o início de tendência de alta.</p>
 <p>&nbsp;</p>
 <p>E para finalizar essa sequência de exemplos vou apresentar um cenário em que o indicador macd sinaliza venda, ou seja, início de tendência de baixa:</p>
@@ -211,37 +200,13 @@
 <p>O uso do MACD <strong>nas configurações padrões</strong> em intervalos de tempo mais curtos é ineficaz, principalmente devido à defasagem dos sinais. Portanto, é imprescindível fazer ajustes nas configurações quando for usar o indicador MACD no 5 minutos e 1 minuto.</p>
 <p>&nbsp;</p>
 <h2 id="perguntas-frequentes-indicador-macd" class="pt-2">Perguntas Frequentes</h2>
-<p>&nbsp;<br />
-<div id="rank-math-rich-snippet-wrapper"><div id="rank-math-faq" class="rank-math-block">
-<div class="rank-math-list ">
-<div id="faq-1" class="rank-math-list-item">
-<h3 class="rank-math-question ">Como usar o MACD para entrar em uma operação?</h3>
-<div class="rank-math-answer ">
-
-<p>Quando a linha MACD cruza acima da linha de sinal, é um sinal de compra; abaixo, é um sinal de venda.</p>
-
-</div>
-</div>
-<div id="faq-2" class="rank-math-list-item">
-<h3 class="rank-math-question ">Qual a diferença entre MACD e histograma?</h3>
-<div class="rank-math-answer ">
-
-<p>O histograma mostra a diferença entre o MACD e a linha de sinal, visualizando a força da tendência.</p>
-
-</div>
-</div>
-<div id="faq-3" class="rank-math-list-item">
-<h3 class="rank-math-question ">Qual é o melhor período para o MACD?</h3>
-<div class="rank-math-answer ">
-
-<p>O período padrão é 12, 26 e 9, mas pode ser ajustado dependendo da estratégia e do horizonte de tempo do trader.</p>
-
-</div>
-</div>
-</div>
-</div></div><br />
-&nbsp;</p>
-<h2 id="como-calcular-o-macd-no-day-trade" class="pt-2">Como calcular o MACD ?</h2>
+<h3>Como usar o MACD para entrar em uma operação?</h3>
+<p>Quando a linha MACD cruza acima da linha de sinal, é um sinal de compra; abaixo, é um sinal de venda. </p>
+<h3>Qual a diferença entre MACD e histograma?</h3>
+<p>O histograma mostra a diferença entre o MACD e a linha de sinal, visualizando a força da tendência. </p>
+<h3>Qual é o melhor período para o MACD?</h3>
+<p>O período padrão é 12, 26 e 9, mas pode ser ajustado dependendo da estratégia e do horizonte de tempo do trader. </p>
+<h3 id="como-calcular-o-macd-no-day-trade" class="pt-2">Como calcular o MACD ?</h3>
 <p class="pt-2">Coloquei esse tópico por último pois não há necessidade de se preocupar com a parte matemática por trás dos indicadores. Isso porque <strong>as plataformas gráficas fazem todo cálculo automaticamente.</strong></p>
 <p class="pt-2"><strong>Mas é importante </strong>conhecer os fundamentos por trás do indicador que se está utilizando.</p>
 <p class="pt-2">Para os interessados em saber mais detalhes desse indicador, segue abaixo a forma como esse indicador é calculado. Vou usar como referências a configuração padrão do indicador MACD.</p>
@@ -264,11 +229,11 @@
 		
 		
 		<media:content url="https://i3.wp.com/res.cloudinary.com/institutotrader/image/upload/v1729518081/Blog/thumbnails/img-featmcd-1.webp" medium="image"></media:content>
-			<media:content url="https://www.youtube.com/embed/4kgWs58DIds" medium="video" width="1280" height="720">
-			<media:player url="https://www.youtube.com/embed/4kgWs58DIds" />
+			<media:content url="https://www.youtube.com/embed/ifDVlSIOJD8" medium="video" width="1280" height="720">
+			<media:player url="https://www.youtube.com/embed/ifDVlSIOJD8" />
 			<media:title type="plain">Indicador MACD Na Prática</media:title>
-			<media:description type="html"><![CDATA[Neste vídeo, vou te explicar de forma simples e prática tudo o que você precisa saber sobre o indicador MACD.]]></media:description>
-			<media:thumbnail url="https://ik.imagekit.io/z2wvrofag/videos/thumbnails/indicador-macd_qbUMnNT8k.webp?updatedAt=1701611438772" />
+			<media:description type="html"><![CDATA[Aprenda a usar o indicador MACD de maneira correta em suas operações.]]></media:description>
+			<media:thumbnail url="https://ik.imagekit.io/z2wvrofag/videos/thumbnails/indicador-macd_qbUMnNT8k.webp" />
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 		</media:content>
 	</item>
