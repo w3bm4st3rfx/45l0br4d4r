@@ -273,29 +273,23 @@
 
 
 				<script type="text/javascript">
-					function importHotmart(){
-					  var imported = document.createElement('script');
-					  imported.src = 'https://static.hotmart.com/checkout/widget.min.js';
-					  imported.defer = true;
-					  document.head.appendChild(imported);
-				  
-					  var link = document.createElement('link');
-					  link.rel = 'stylesheet';
-					  link.type = 'text/css';
-					  link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css';
-					  link.media = 'print';
-					  link.onload = function() { link.media = 'all'; };
-					  document.head.appendChild(link);
-					}
-					importHotmart();
-				  </script>
-				
-				<div style="display:flex; justify-content: center;align-items: center;">
-					<a onclick="return false;" href="https://pay.hotmart.com/Y73788509P?checkoutMode=2" class="hotmart-fb hotmart__button-checkout">
-					  <img src='https://static.hotmart.com/img/btn-buy-green.png' loading="lazy">
-					</a>
-				  </div>
+					function importHotmart(){ 
+						 var imported = document.createElement('script'); 
+						 imported.src = 'https://static.hotmart.com/checkout/widget.min.js'; 
+						 document.head.appendChild(imported); 
+						var link = document.createElement('link'); 
+						link.rel = 'stylesheet'; 
+						link.type = 'text/css'; 
+						link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css'; 
+						document.head.appendChild(link);	} 
+					 importHotmart(); 
+				 </script> 
 
+				<div style="display:flex; justify-content: center;align-items: center;">
+<a onclick="return false;" href="https://pay.hotmart.com/Y73788509P?checkoutMode=2" class="hotmart-fb hotmart__button-checkout"><img src='https://static.hotmart.com/img/btn-buy-green.png'></a> 
+</div>
+
+				
 				  <img class="img-fluid  mx-auto d-block" loading="lazy" src="https://res.cloudinary.com/institutotrader/image/upload/v1675760120/pgrb350x151_dygla3.png" width="350" height="151"  alt="carregando..." >
 
 				
