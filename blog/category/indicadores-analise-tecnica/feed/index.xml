@@ -12,7 +12,7 @@
 	<atom:link href="https://radarbolsa.com/blog/category/indicadores-analise-tecnica/feed/" rel="self" type="application/rss+xml" />
 	<link>https://radarbolsa.com/blog/</link>
 	<description>Day Trade &#124; Swing Trade &#124; Análise Técnica</description>
-	<lastBuildDate>Tue, 22 Oct 2024 10:55:59 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 22 Oct 2024 11:51:14 +0000</lastBuildDate>
 	<language>pt-BR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -231,9 +231,9 @@
 		<media:content url="https://i3.wp.com/res.cloudinary.com/institutotrader/image/upload/v1729518081/Blog/thumbnails/img-featmcd-1.webp" medium="image"></media:content>
 			<media:content url="https://www.youtube.com/embed/ifDVlSIOJD8" medium="video" width="1280" height="720">
 			<media:player url="https://www.youtube.com/embed/ifDVlSIOJD8" />
-			<media:title type="plain">Indicador MACD Na Prática</media:title>
-			<media:description type="html"><![CDATA[Aprenda a usar o indicador MACD de maneira correta em suas operações.]]></media:description>
-			<media:thumbnail url="https://ik.imagekit.io/z2wvrofag/videos/thumbnails/indicador-macd_qbUMnNT8k.webp" />
+			<media:title type="plain">Indicador MACD: Como Funciona, Estratégias e Dicas</media:title>
+			<media:description type="html"><![CDATA[Aprenda a identificar oportunidades de compra e venda, descubra as melhores estratégias com o MACD e receba dicas valiosas para potencializar seus ganhos no ...]]></media:description>
+			<media:thumbnail url="https://res.cloudinary.com/institutotrader/image/upload/v1729518081/Blog/thumbnails/img-featmcd-1.webp" />
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 		</media:content>
 	</item>

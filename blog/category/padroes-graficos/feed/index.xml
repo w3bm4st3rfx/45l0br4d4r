@@ -12,7 +12,7 @@
 	<atom:link href="https://radarbolsa.com/blog/category/padroes-graficos/feed/" rel="self" type="application/rss+xml" />
 	<link>https://radarbolsa.com/blog/</link>
 	<description>Day Trade &#124; Swing Trade &#124; Análise Técnica</description>
-	<lastBuildDate>Tue, 22 Oct 2024 10:53:16 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 22 Oct 2024 12:09:35 +0000</lastBuildDate>
 	<language>pt-BR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -315,6 +315,13 @@
 		
 		
 		<media:content url="https://i0.wp.com/res.cloudinary.com/institutotrader/image/upload/v1729540931/Blog/thumbnails/thumbpgat.webp" medium="image"></media:content>
-				</item>
+			<media:content url="https://www.youtube.com/embed/oK-mLBboxIs" medium="video" width="1280" height="720">
+			<media:player url="https://www.youtube.com/embed/oK-mLBboxIs" />
+			<media:title type="plain">Padrões Gráficos da Análise Técnica: Guia Prático</media:title>
+			<media:description type="html"><![CDATA[Entenda como funciona os padrẽos gráficos da análise técnica e identifique oportunidades de lucro no mercado financeiro. 🌟 Day Trade: 40 Dicas de Sucessohtt...]]></media:description>
+			<media:thumbnail url="https://radarbolsa.com/blog/wp-content/uploads/2024/10/padroes-graficos-da-analise-tecn-3.jpg" />
+			<media:rating scheme="urn:simple">nonadult</media:rating>
+		</media:content>
+	</item>
 	</channel>
 </rss>

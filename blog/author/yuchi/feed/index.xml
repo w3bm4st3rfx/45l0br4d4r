@@ -12,7 +12,7 @@
 	<atom:link href="https://radarbolsa.com/blog/author/yuchi/feed/" rel="self" type="application/rss+xml" />
 	<link>https://radarbolsa.com/blog/</link>
 	<description>Day Trade &#124; Swing Trade &#124; Análise Técnica</description>
-	<lastBuildDate>Tue, 22 Oct 2024 10:55:59 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 22 Oct 2024 12:09:35 +0000</lastBuildDate>
 	<language>pt-BR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -315,7 +315,14 @@
 		
 		
 		<media:content url="https://i0.wp.com/res.cloudinary.com/institutotrader/image/upload/v1729540931/Blog/thumbnails/thumbpgat.webp" medium="image"></media:content>
-				</item>
+			<media:content url="https://www.youtube.com/embed/oK-mLBboxIs" medium="video" width="1280" height="720">
+			<media:player url="https://www.youtube.com/embed/oK-mLBboxIs" />
+			<media:title type="plain">Padrões Gráficos da Análise Técnica: Guia Prático</media:title>
+			<media:description type="html"><![CDATA[Entenda como funciona os padrẽos gráficos da análise técnica e identifique oportunidades de lucro no mercado financeiro. 🌟 Day Trade: 40 Dicas de Sucessohtt...]]></media:description>
+			<media:thumbnail url="https://radarbolsa.com/blog/wp-content/uploads/2024/10/padroes-graficos-da-analise-tecn-3.jpg" />
+			<media:rating scheme="urn:simple">nonadult</media:rating>
+		</media:content>
+	</item>
 		<item>
 		<title>Indicador MACD: Como usar, Estratégias e Dicas Práticas</title>
 		<link>https://radarbolsa.com/blog/indicador-macd-como-usar-e-dicas-praticas/</link>
@@ -528,9 +535,9 @@
 		<media:content url="https://i3.wp.com/res.cloudinary.com/institutotrader/image/upload/v1729518081/Blog/thumbnails/img-featmcd-1.webp" medium="image"></media:content>
 			<media:content url="https://www.youtube.com/embed/ifDVlSIOJD8" medium="video" width="1280" height="720">
 			<media:player url="https://www.youtube.com/embed/ifDVlSIOJD8" />
-			<media:title type="plain">Indicador MACD Na Prática</media:title>
-			<media:description type="html"><![CDATA[Aprenda a usar o indicador MACD de maneira correta em suas operações.]]></media:description>
-			<media:thumbnail url="https://ik.imagekit.io/z2wvrofag/videos/thumbnails/indicador-macd_qbUMnNT8k.webp" />
+			<media:title type="plain">Indicador MACD: Como Funciona, Estratégias e Dicas</media:title>
+			<media:description type="html"><![CDATA[Aprenda a identificar oportunidades de compra e venda, descubra as melhores estratégias com o MACD e receba dicas valiosas para potencializar seus ganhos no ...]]></media:description>
+			<media:thumbnail url="https://res.cloudinary.com/institutotrader/image/upload/v1729518081/Blog/thumbnails/img-featmcd-1.webp" />
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 		</media:content>
 	</item>
@@ -578,7 +585,7 @@
 </div>
 <p>&nbsp;</p>
 <h2 id="video-padroes-candlesticks" class="pt-5" style="color: #0000ff; text-align: center;">Versão em Vídeo</h2>
-<p><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/HMItITqnTZM?si=_YW3q1mYX3xCGmMZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<p><iframe loading="lazy" loadig="lazy" width="560" height="315" src="https://www.youtube.com/embed/qt3nX2Rc6EM?si=E5-b2otrI-LYbn2S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 <div class="text-center">
 <h2 id="doji-candlestick" class="pt-5 title-blue" style="text-align: center;">Doji</h2>
 <p><img loading="lazy" decoding="async" class="aligncenter" src="https://res.cloudinary.com/institutotrader/image/upload/v1546437297/Blog/Candlestick-1.jpg" alt="Padrão Doji Candlestick" width="570" height="250" /></p>
@@ -806,11 +813,11 @@
 		
 		
 		<media:content url="https://i2.wp.com/res.cloudinary.com/institutotrader/image/upload/v1665915896/Blog/padroes-candlestick.png" medium="image"></media:content>
-			<media:content url="https://www.youtube.com/embed/HMItITqnTZM" medium="video" width="1280" height="720">
-			<media:player url="https://www.youtube.com/embed/HMItITqnTZM" />
+			<media:content url="https://www.youtube.com/embed/qt3nX2Rc6EM" medium="video" width="1280" height="720">
+			<media:player url="https://www.youtube.com/embed/qt3nX2Rc6EM" />
 			<media:title type="plain">Padrões Candlesticks: Top 10 Lucrativos</media:title>
 			<media:description type="html"><![CDATA[Conheça os padrões candlesticks mais importantes que todo investidor e trader deve conhecer. Aprenda como identificar esses padrões e utilizá-los para fazer ...]]></media:description>
-			<media:thumbnail url="https://radarbolsa.com/blog/wp-content/uploads/2024/10/padroes-candlesticks-top-10-lucr.jpg" />
+			<media:thumbnail url="https://ik.imagekit.io/z2wvrofag/videos/thumbnails/padores-candlestick_3WiScXEqF.webp" />
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 		</media:content>
 	</item>
