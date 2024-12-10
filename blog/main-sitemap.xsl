@@ -11,10 +11,10 @@
 			<head>
 				<xsl:choose>
 					<xsl:when test="kml:kml">
-						<title>Sitemap de localizações - Blog Trader</title>
+						<title>Sitemap de localizações - RadarBolsa.com</title>
 					</xsl:when>
 					<xsl:otherwise>
-						<title>Sitemap XML - Blog Trader</title>
+						<title>Sitemap XML - RadarBolsa.com</title>
 					</xsl:otherwise>
 				</xsl:choose>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
