@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://radarbolsa.com/blog/news-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-news/0.9 http://www.google.com/schemas/sitemap-news/0.9/sitemap-news.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+	<url>
+		<loc>https://radarbolsa.com/blog/fatos-relevantes-sobre-petrobras-petr4/</loc>
+		<news:news>
+			<news:publication>
+				<news:name>RadarBolsa.com</news:name>
+				<news:language>pt</news:language>
+			</news:publication>
+			<news:publication_date>2024-12-10T11:00:37+00:00</news:publication_date>
+			<news:title><![CDATA[6 Fatos Relevantes Sobre a Petrobrás (PETR4) no Momento]]></news:title>
+		</news:news>
+	</url>
+</urlset>
