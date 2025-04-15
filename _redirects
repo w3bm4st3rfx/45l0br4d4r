@@ -97,13 +97,6 @@
 /alertas.htm  /assinaturas/radar-acoes  301
 /assinaturas/swing-trade.html  /assinaturas/radar-acoes.html  301
 /*.htm / 301
-/br/padroes-candlestick  /blog/10-padroes-candlesticks-mais-fortes-para-trader/  301
-/br/padroes-candlestick.html  /blog/10-padroes-candlesticks-mais-fortes-para-trader/  301
-/br/indicador-macd  /blog/indicador-macd-como-usar-e-dicas-praticas/  301
-/br/indicador-macd.html  /blog/indicador-macd-como-usar-e-dicas-praticas/  301
-/br/padroes-graficos-analise-tecnica  /blog/padroes-graficos-mais-lucrativos-no-trading/  301
-/br/padroes-graficos-analise-tecnica.html  /blog/padroes-graficos-mais-lucrativos-no-trading/  301
-/br/  /blog/  301
-/br/index.html  /blog/  301
-/blog/10-padroes-candlesticks-mais-fortes-para-trader/  /blog/10-padroes-candlesticks-mais-importantes/  301
-/blog/padroes-graficos-mais-lucrativos-no-trading/  /blog/padroes-graficos-mais-lucrativos/  301
+/blog/indicador-macd/  /br/indicador-macd  301
+/blog/10-padroes-candlesticks-mais-importantes/  /br/padroes-graficos-analise-tecnica  301
+/blog/padroes-graficos-mais-lucrativos/  /br/padroes-graficos-analise-tecnica  301
