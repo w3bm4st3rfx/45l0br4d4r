@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ondas de Elliott Pro</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0e0e0e;
+      color: #f1f1f1;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #00ffd1;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #d0d0d0;
+      margin-top: 15px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .highlight {
+      color: #00ffd1;
+      font-weight: bold;
+    }
+
+    .grid-3 {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .card {
+      flex: 1 1 300px;
+      background-color: #1b1b1b;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    .card h2 {
+      color: #00ffd1;
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+
+    .card p {
+      color: #cfcfcf;
+      font-size: 1.05em;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #00ffd1;
+      font-size: 2em;
+    }
+
+    .section-bg {
+      background-color: #1a1a1a;
+      padding: 60px 20px;
+    }
+
+    .assets {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .asset-box {
+      flex: 1 1 300px;
+      background-color: #252525;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #333;
+    }
+
+    .asset-box h3 {
+      color: #00ffd1;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .note {
+      text-align: center;
+      margin-top: 25px;
+      color: #bbbbbb;
+      font-style: italic;
+      font-size: 0.95em;
+    }
+
+    .pricing {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+
+    .plan {
+      background-color: #1b1b1b;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid #333;
+      flex: 1 1 280px;
+      position: relative;
+    }
+
+    .plan h3 {
+      color: #00ffd1;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .plan p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .plan button {
+      background-color: #00ffd1;
+      color: #0e0e0e;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .plan button:hover {
+      background-color: #00c9a7;
+    }
+
+    .badge {
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #00ffd1;
+      color: #0e0e0e;
+      font-weight: bold;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 0.85em;
+    }
+
+    .testimonials, .faq {
+      margin-top: 60px;
+    }
+
+    .testimonial {
+      background-color: #1b1b1b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #333;
+    }
+
+    .testimonial p {
+      font-style: italic;
+      color: #ccc;
+    }
+
+    .testimonial span {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #00ffd1;
+    }
+
+    .faq-item {
+      background-color: #1b1b1b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #333;
+    }
+
+    .faq-item h4 {
+      color: #00ffd1;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      font-size: 0.9em;
+      color: #888;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      .grid-3 {
+        flex-direction: column;
+      }
+
+      .assets {
+        flex-direction: column;
+      }
+
+      .pricing {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ondas de Elliott Pro</h1>
+    <p>Transforme sua leitura de mercado com análises semanais do <span class="highlight">IBOV</span> e <span class="highlight">Bitcoin</span>.</p>
+  </header>
+
+  <div class="container">
+    <div class="grid-3">
+      <div class="card">
+        <h2>📈 Domine as Ondas</h2>
+        <p>Aprenda como identificar movimentos reais do mercado aplicando os princípios da Teoria de Elliott.</p>
+      </div>
+      <div class="card">
+        <h2>🔍 O que você recebe?</h2>
+        <p>Análises semanais detalhadas com marcações de ondas, zonas de reversão e possíveis cenários.</p>
+      </div>
+      <div class="card">
+        <h2>🧠 Ideal para Iniciantes</h2>
+        <p>Conteúdo direto ao ponto, com linguagem simples e didática para quem está começando.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-bg">
+    <div class="container">
+      <h2 class="section-title">💼 Ativos que cobrimos</h2>
+      <div class="assets">
+        <div class="asset-box">
+          <h3>📊 IBOV</h3>
+          <p>Análise técnica e leitura das ondas no principal índice da bolsa brasileira.</p>
+        </div>
+        <div class="asset-box">
+          <h3>🪙 Bitcoin</h3>
+          <p>Atualizações semanais do ativo mais volátil e técnico do mercado cripto.</p>
+        </div>
+      </div>
+      <p class="note">🔔 Você também pode solicitar a análise de ativos específicos como bônus para assinantes.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title">💰 Planos de Assinatura</h2>
+    <div class="pricing">
+      <div class="plan">
+        <h3>Mensal</h3>
+        <p>R$ 59/mês</p>
+        <button onclick="window.location.href='https://go.hotmart.com/SEU-LINK-MENSAL'">Quero Assinar</button>
+      </div>
+      <div class="plan">
+        <div class="badge">RECOMENDADO</div>
+        <h3>Trimestral</h3>
+        <p>R$ 99/trimestre</p>
+        <button onclick="window.location.href='https://go.hotmart.com/SEU-LINK-TRIMESTRAL'">Quero Assinar</button>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <h2 class="section-title">✨ O que dizem nossos assinantes</h2>
+      <div class="testimonial">
+        <p>"Finalmente entendi como as ondas funcionam! A leitura ficou muito mais clara depois que comecei a seguir as análises."</p>
+        <span>— João T., Trader Iniciante</span>
+      </div>
+      <div class="testimonial">
+        <p>"O conteúdo é direto e aplicável. As marcações me ajudaram a antecipar movimentos no BTC que eu jamais enxergaria sozinho."</p>
+        <span>— Luana M., Estudante de Análise Técnica</span>
+      </div>
+    </div>
+
+    <div class="faq">
+      <h2 class="section-title">❓ Perguntas Frequentes</h2>
+      <div class="faq-item">
+        <h4>Preciso ter experiência para acompanhar?</h4>
+        <p>Não! O conteúdo é pensado para quem está aprendendo e quer começar a aplicar a teoria de forma prática.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Com que frequência as análises são atualizadas?</h4>
+        <p>Toda semana, você recebe uma nova análise com os possíveis movimentos futuros e atualizações dos cenários anteriores.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Posso cancelar a qualquer momento?</h4>
+        <p>Sim. A assinatura é flexível e você pode cancelar quando quiser, direto pela plataforma Hotmart.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Ondas de Elliott Pro. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
