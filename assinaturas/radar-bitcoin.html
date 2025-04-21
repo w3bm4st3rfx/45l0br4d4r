@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="utf-8">
+    <title>Radar Bitcoin</title>
+    
+    <!-- Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <!--Basic meta info -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda Ondas de Elliott na Prática! Análise e Insights das teoria das ondas de elliott">
+    <meta name="keywords" content="ondas de elliott">  
+     
+     <!--OpenGraph meta -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Radar Bitcoin">
+    <meta property="og:description" content="Aprenda Ondas de Elliott na Prática! Análise e Insights das teoria das ondas de elliott">
+    <meta property="og:url" content="https://radarbolsa.com/assinaturas/ondas-de-elliott-pro">
+    <meta property="og:site_name" content="RadarBolsa.com">
+    <meta property="og:image" content="https://res.cloudinary.com/institutotrader/image/upload/v1665915896/Blog/padroes-candlestick.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:image:type" content="image/jpeg">
+
+    <!--meta for twitter -->
+    <meta name="twitter:card" content="summary">
+
+    <!--Favicon -->
+    <link rel="shortcut icon" href="../favicon.ico"> 
+
+
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../assets/css/tema-blog-theme-3.css">
+
+	<!-- Contact-form CSS --> 
+	 <link rel="stylesheet" href="../assets/css/contact-form.css">
+     
+    <!-- Atendimento CSS --> 
+    <link rel="stylesheet" href="../assets/css/atendimento.css">	  
+          
+          
+      <style> 
+
+		 /*  Botão Cadastre-se aqui | Fonte: https://loading.io/button/generator#top  */
+		 .button{backface-visibility: hidden; position: relative; cursor: pointer; display: inline-block; white-space: nowrap; background: linear-gradient(180deg,#f9f9f9 0%,#e0e0e0 100%); border-radius: 100px; border: 0.5px solid rgba(0%,0%,0%,0.2); border-width: 0.5px 0.5px 0.5px 0.5px; padding: 4px 22px 5px 22px; box-shadow: 0px 1px 1px rgba(0,0,0,0.6),0px 0px 5px rgba(255,255,255,1),0px 1px 0px 3px rgba(0,0,0,0.2),inset 0px 1px 0px rgba(255,255,255,1); color: #273; font-size: 16px; font-family: Helvetica Neue; font-weight: 900; font-style: normal}.button > div{color: #000000; font-size: 12px; font-family: Helvetica Neue; font-weight: initial; font-style: normal; text-align: center; margin: 0px 0px 0px 0px}.button > i{font-size: 1em; border-radius: 0px; border: 0px solid transparent; border-width: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; position: static}.button > .ld{font-size: initial}
+	
+/* layout da pagina, via chatgpt*/
+
+    .header2 {
+      background: #30E8BF;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .header2 h1 {
+      font-size: 2.8em;
+      margin: 0 0 10px;
+    }
+
+    .header2 p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .btn-primary {
+      background: #f70000;
+      color: white;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 60px 20px;
+      background: #fff;
+      background-color: #464F73;  /* fallback for old browsers */
+
+    }
+
+    .feature {
+      background: #f0f8ff;
+      padding: 30px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+
+
+    }
+
+    .feature h3 {
+      margin-bottom: 10px;
+    }
+
+    .plans-section {
+      padding: 60px 20px;
+      background: #eef6ff;
+      text-align: center;
+    }
+
+    .plans {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .plan {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      width: 280px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      position: relative;
+    }
+
+    .plan.popular {
+      border: 2px solid #00c896;
+    }
+
+    .plan.popular::before {
+      content: "MAIS POPULAR";
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #00c896;
+      color: white;
+      padding: 6px 12px;
+      font-size: 0.75em;
+      border-radius: 20px;
+    }
+
+    .plan h3 {
+      margin-bottom: 10px;
+    }
+
+    .plan p {
+      font-size: 1.4em;
+      margin: 20px 0;
+    }
+
+    .testimonials, .faq, .author {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .testimonials .testimonial,
+    .faq .faq-item {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+
+    .testimonial img, .faq-item img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      margin-right: 15px;
+    }
+
+    .testimonial .info,
+    .faq-item .info {
+      display: flex;
+      align-items: center;
+    }
+
+    .testimonial p,
+    .faq-item p {
+      margin: 10px 0 0;
+    }
+
+    .author {
+      background: #f0f0f0;
+    }
+
+    .payment-img {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #eaeaea;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+    a.btn-primary:hover {
+      opacity: 0.9;
+    }
+
+    @media(max-width: 768px) {
+      .features, .plans {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+	
+
+	  </style>        
+ 
+</head> 
+
+<body>
+    <header class="header text-center"  id="cadastro">	    
+
+        
+	    <nav class="navbar navbar-expand-lg navbar-dark" >
+           
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+	       <div id="navigation" class="collapse navbar-collapse flex-column" >
+			<div class="profile-section pt-3 pt-lg-0">
+				<span><a href="https://radarbolsa.com"><img class="profile-image mb-2 mx-auto" src="https://ik.imagekit.io/z2wvrofag/rb-logo-100x100_AR4LVulQM.webp?updatedAt=1729102491564" alt="carregando..." width="90" height="90" /></a></span>			
+					
+				<div class="bio mb-3"><strong>RadarBolsa.com</strong></div><!--//bio--> 		
+				<hr> 
+			</div><!--//profile-section-->
+				
+				<ul class="navbar-nav flex-column text-start">
+					<li class="nav-item">
+					    <a class="nav-link" href="../br/resultados.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/></svg>   Resultados</a>
+					</li>
+					
+					
+					<li class="nav-item">
+					    <a class="nav-link" href="../assinaturas/index.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16"> <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/></svg>   Assinaturas</a>
+					</li>
+					
+
+					<li class="nav-item">
+					    <a class="nav-link" href="../cursos/index.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16"> <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/> <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/></svg>   Cursos &#x1F525;</a>
+					</li>
+ 
+					<li class="nav-item">
+					    <a class="nav-link" href="../livros/index.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-richtext-fill" viewBox="0 0 16 16"> <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM7 4.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V7.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V7s1.54-1.274 1.639-1.208zM5 9h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/></svg>   Livros</a>
+					</li>
+
+					<li class="nav-item">
+					    <a class="nav-link" href="https://radarbolsa.com/blog/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+						  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+						</svg>   Blog</a>
+					</li> 
+
+					<li class="nav-item">
+					    <a class="nav-link" href="../sobre.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16"> <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>   Sobre</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="../contato.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16"> <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>   Contato</a>
+					</li>
+					
+
+				
+				</ul>
+				
+
+			</div>
+		</nav>
+    </header>
+    
+    <div class="main-wrapper">
+
+	  <section class="header2">
+      <h1>Radar Bitcoin</h1>
+      <p>Fique por dentro dos movimentos do Bitcoin com alertas em tempo real e análises estratégicas</p>
+      <a href="#cadastrar" class="btn-primary">Assinar Agora</a>
+    </section>
+  
+    <section class="features">
+      <div class="feature">
+        <h3>📡 Alertas em Tempo Real</h3>
+        <p>Receba sinais no momento em que o mercado se movimenta.</p>
+      </div>
+      <div class="feature">
+        <h3>📊 Insights Exclusivos</h3>
+        <p>Análises objetivas e baseadas em dados de comportamento de preço.</p>
+      </div>
+      <div class="feature">
+        <h3>🕒 Monitoramento 24/7</h3>
+        <p>Fique tranquilo, monitoramos o mercado o tempo todo por você.</p>
+      </div>
+    </section>
+  
+
+
+        <!--
+    <section class="plans-section">
+      <h2>Escolha Seu Plano</h2>
+      <div class="plans">
+        <div class="plan">
+          <h3>Mensal</h3>
+          <p>R$59/mês</p>
+          <a href="https://go.hotmart.com/LINK-MENSAL" class="btn-primary">Assinar Agora</a>
+        </div>
+        <div class="plan popular">
+          <h3>Trimestral</h3>
+          <p><del>R$177</del><br><strong style="font-size: 1.6em;">R$149</strong><br><span style="color: #00c896;">📉 16% OFF</span></p>
+          <a href="https://go.hotmart.com/LINK-TRIMESTRAL" class="btn-primary">Assinar Agora</a>
+        </div>
+      </div>
+      <div class="payment-img img-fluid">
+        <img src="https://res.cloudinary.com/institutotrader/image/upload/v1675760120/pgrb350x151_dygla3.png" alt="Formas de pagamento" style="max-width: 300px; margin-top: 30px;">
+      </div>
+    </section>
+    -->
+  
+
+
+
+		<section id="cadastrar" class="cta-section mb-4 mt-4 p-3">
+			<div  class="container text-center" style="max-width: 720px; background-color:#96c93d; border-radius: 5px;">
+			<h3 id="cadastro" class="text-center pb-0">Inscrição:</h3>
+			<p  class="m-0" style="color: #123458"> Cadastre seu <strong>e-mail</strong> abaixo:</p>
+				
+				<div class="container">
+		
+					<form lang="pt-BR" action="" id="contactForm" onsubmit="showSendingMessage()">
+						<div class="inputBox">
+							<input type="email" id="emailid" placeholder="Digite aqui seu e-mail..." required />
+						</div>
+
+						<div class="inputBox">
+							<button type="submit">Cadastrar !</button>
+						</div>
+						
+						<div id="error-message" style="display:none; font-size:1.5rem; background-color: #ffffff; color: #ff0000;">Por favor, Digite um e-mail válido!</div>
+						<div class="alert">Enviado !</div>
+
+					</form>
+
+					<p id="sendingMessage" style="display: none; font-size: 25px; color: blue; text-align: center; margin-top: 30px;">Por favor, aguarde...</p>
+
+				</div>
+				
+			</div><!--//container-->
+		</section>
+		
+
+
+  <section class="testimonials">
+    <h2>O Que Dizem Nossos Assinantes</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+      <div class="testimonial" style="flex: 1 1 280px;">
+        <div class="info">
+          <img src="https://res.cloudinary.com/institutotrader/image/upload/v1659552761/Depoimentos/depo-3.jpg" alt="Cliente 1">
+          <div>
+            <strong>Joãzo Souza</strong><br>
+          </div>
+        </div>
+        <p>“Com o Radar Bitcoin consigo entrar e sair do mercado com muito <strong>mais confiança</strong>. Os alertas realmente fazem a diferença.”</p>
+      </div>
+  
+      <div class="testimonial" style="flex: 1 1 280px;">
+        <div class="info">
+          <img src="https://res.cloudinary.com/institutotrader/image/upload/v1659717081/Depoimentos/depo-11.webp" alt="Cliente 2">
+          <div>
+            <strong>Lenadro Monteiro</strong><br>
+          </div>
+        </div>
+        <p>“Antes eu perdia oportunidades por não saber o momento certo. Agora aproveito <strong>oportunidades com mais facilidade</strong>.</p>
+      </div>
+  
+  
+  </section>
+  
+  
+    <section class="faq" style="background-color: lightcyan;">
+      <h2>Perguntas Frequentes</h2>
+      <div class="faq-item">
+        <strong>Com que frequência recebo alertas?</strong>
+        <p>Você será notificado sempre que houver um movimento relevante no mercado.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Preciso de conhecimento técnico?</strong>
+        <p>Não! O Radar Bitcoin foi feito para ser útil tanto para iniciantes quanto para experientes.</p>
+      </div>
+    </section>
+  
+
+            <!-- Seção: Sobre o Autor -->
+            <section style="background-color: #625c5c; color: #fff; padding: 60px 20px; text-align: center;">
+              <h2 style="font-size: 2em; margin-bottom: 40px;color:#D3D3D3">Autor</h2>
+              
+              <div style="display: flex; flex-direction: column; align-items: center; max-width: 700px; margin: 0 auto;">
+                <img src="https://ik.imagekit.io/z2wvrofag/fy300%20x%20300_eCYEU_mRE.webp?updatedAt=1714564630705" alt="Foto do autor" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;" />
+                
+                <h3 style="margin-bottom: 10px;color:#D3D3D3">Fernando Yuchi</h3>
+                <p style="font-size: 1.1em; line-height: 1.6; color: #ccc;">
+                  Trader profissional com mais de 20 anos de experiência no mercado financeiro. Criador do <strong>Radar Bitcoin</strong>, tem ajudado traders a enxergarem o mercado com mais clareza e estratégia.
+                </p>
+              </div>
+            </section>
+
+  <footer class="footer text-center py-5 pt-5" style="background-color:rgb(15, 15, 67)">
+		   
+    <small class="copyright">
+     <p style="text-align:center"><a href="../cursos/index.html">Cursos</a> <strong>|</strong> <a href="../livros/index.html">Livros</a> <strong>|</strong> <a href="../sobre.html">Sobre</a> <strong>|</strong> <a href="../contato.html">Contato</a>|</strong> <a href="https://radarbolsa.com/blog/">Blog</a></p>
+     <p style="text-align: center;">&nbsp;<a href="../termos-de-uso.html">Termos de Uso</a> <strong>|</strong> <a href="../politica-de-privacidade.html">Pol&iacute;tica de Privacidade</a> </p>
+       <p style="text-align:center">Todos os Direitos Reservados.</p>
+       <a href="https://radarbolsa.com"><img loading="lazy" src="https://res.cloudinary.com/institutotrader/image/upload/v1659609052/radarbolsa.com_xqzeyd.webp" width="108" height="41" alt="radarbolsa.com"></a>
+      </small>
+
+  </footer>
+  <p style="font-size:12px; padding:10px; color:rgb(0, 0, 0)">Disclaimer: O portal RadarBolsa.com não leva em consideração objetivos de investimentos especiais, a situação financeira ou as necessidades específicas de investidores individuais. Todo investimento em mercado de renda variável é de risco e ganhos obtidos anteriormente não são garantia de ganhos no futuro. O material apresentado em nosso site tem por finalidade transmitir conhecimento sobre o Mercado de Renda Variável, cabendo, tão somente, a própria pessoa definir suas operações e assumir as responsabilidades pelo risco. O conteúdo apresentado neste site é apenas informativo e educacional. Não configura consultoria financeira ou recomendação de investimento. As decisões tomadas com base nas informações fornecidas são de total responsabilidade do usuário. O RadarBolsa.com não se responsabiliza por perdas, danos (diretos, indiretos e incidentais), custos e lucros cessantes. </p>
+
+
+      
+
+  </div> 
+  
+	    
+
+			
+
+	
+			   <!--Atendimento Floating Imagem-->
+			   <div>
+				<a id="floating-button" href="../contato.html">
+				 <img class="desktop" loading="lazy" src="https://res.cloudinary.com/institutotrader/image/upload/v1690897551/desk-atend_hvfvqg.webp" >
+				 <img class="mobile" loading="lazy" src="https://res.cloudinary.com/institutotrader/image/upload/v1687098277/Contato/mob-atend.png" >
+				</a>
+			</div>
+			
+
+
+    
+    </div><!--//main-wrapper-->
+
+       
+    <!-- Javascript -->         
+    <script defer src="../assets/js/bs.js"></script>
+
+
+    
+    <!-- JS para o contact form combinado com Firebase -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>                  
+    <script defer src="../assets/js/subscriber-form-radarbtc.js"></script>              
+    
+ 
+		<!-- Script para fazer apareer a mensagem de "por favor, aguarde....""-->
+		<script>
+			function showSendingMessage() {
+				document.getElementById("sendingMessage").style.display = "block";
+			}
+		</script>
+
+
+    <!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-93EG5ST281"></script><script>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'G-93EG5ST281');</script>
+
+
+
+</body>
+</html> 
+
