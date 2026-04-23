@@ -133,19 +133,4 @@
       faqWrap.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
       if (!wasOpen) item.classList.add('open');
     });
-  }</script><script>// Carrega o GA apenas após o primeiro user interaction (idle callback)
-  function loadGA() {
-    const s = document.createElement('script');
-    s.async = true;
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-93EG5ST281';
-    document.head.appendChild(s);
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-93EG5ST281', { 'send_page_view': true });
-  }
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(loadGA, { timeout: 4000 });
-  } else {
-    setTimeout(loadGA, 3000);
-  }</script></body></html>
+  }</script><script>!function(){var t=!1;function a(){if(!t){t=!0;var e=document.createElement("script");e.src="https://www.googletagmanager.com/gtag/js?id=G-93EG5ST281",e.async=!0,document.head.appendChild(e),window.dataLayer=window.dataLayer||[],a("js",new Date),a("config","G-93EG5ST281")}function a(){dataLayer.push(arguments)}}["scroll","mousemove","touchstart","keydown"].forEach(function(e){window.addEventListener(e,a,{once:!0,passive:!0})}),setTimeout(a,5e3)}()</script></body></html>
