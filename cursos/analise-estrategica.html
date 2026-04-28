@@ -134,16 +134,14 @@
     module.classList.toggle('open');
   }
 
-  // FAQ accordion
-  function toggleFaq(header) {
+   function toggleFaq(header) {
     const item = header.closest('.faq-item');
     const isOpen = item.classList.contains('open');
     document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
     if (!isOpen) item.classList.add('open');
   }
 
-  // PERFORMANCE: Scroll reveal com rootMargin e unobserve imediato
-  const reveals = document.querySelectorAll('.reveal');
+   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (e.isIntersecting) {
@@ -154,8 +152,7 @@
   }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
   reveals.forEach(el => observer.observe(el));
 
-  // PERFORMANCE: Sticky bar com passive listener + rAF throttle
-  const sticky = document.getElementById('sticky');
+   const sticky = document.getElementById('sticky');
   let ticking = false;
   window.addEventListener('scroll', () => {
     if (!ticking) {
@@ -167,8 +164,7 @@
     }
   }, { passive: true });
 
-  // ── CONTADOR REGRESSIVO 48h ──
-  (function() {
+   (function() {
     const KEY = 'rb_ae_deadline';
     const DURATION = 48 * 60 * 60 * 1000;
     let deadline = parseInt(localStorage.getItem(KEY) || '0', 10);
@@ -184,8 +180,7 @@
     tick(); setInterval(tick, 1000);
   })();
 
-  // ── VAGAS RESTANTES ──
-  (function() {
+   (function() {
     const KEY = 'rb_ae_slots';
     const MAX_SLOTS = 30;
     let data = JSON.parse(localStorage.getItem(KEY) || 'null');
@@ -202,8 +197,7 @@
     if (barEl) setTimeout(() => { barEl.style.width = ((MAX_SLOTS - data.slots) / MAX_SLOTS * 100) + '%'; }, 300);
   })();
 
-  // PERFORMANCE: Fonte fallback → substitui para web font quando carregada
-  if ('fonts' in document) {
+   if ('fonts' in document) {
     Promise.all([
       document.fonts.load('1em Bebas Neue'),
       document.fonts.load('1em Syne')
